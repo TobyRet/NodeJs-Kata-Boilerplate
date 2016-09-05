@@ -1,0 +1,25 @@
+{
+  "name": "NodeJs Kata Boilerplate",
+  "version": "1.0.0",
+  "description": "A template for katas in NodeJs",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js  --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
+  "keywords": [tdd, boilerplate, template, NodeJs],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "6.14.0",
+    "babel-core": "6.14.0",
+    "babel-preset-es2015": "6.14.0",
+    "chai": "3.5.0",
+    "mocha": "3.0.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
